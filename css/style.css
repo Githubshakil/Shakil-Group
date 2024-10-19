@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
 }
-ul,li{
+ul,ol{
     list-style-type: none;
     padding-left: 0 ;
     margin-bottom: 0;
@@ -16,13 +16,58 @@ h1,h2,h3,h4,h5,h6,p{
 a{
     text-decoration: none;
 }
+body{
+    font-family: "Commissioner", sans-serif;
+}
 /* common css end */
 
 /* navbar part start */
+.navbar{
+    padding: 25px 0;
+}
+.navbar-brand{
+    margin-right: 0;
+}
+.nav-item{
+    padding: 0 14px;
+}
+.nav-link{
+    color: #62636C;
+    text-transform: capitalize;
+    font-size: 16px;
+    font-weight: 400;
+    transition: all linear 0.3s;
+    
+}
+.nav-link:hover{
+    color: #7678ED;
+}
+.nav_btn{
+    padding: 16px 32px;
+    background-color: #7678ED;
+    border: none;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+}
 /* navbar part end */
 
 
 /* banner part start */
+#banner .banner_left h1{
+    font-size: 56px;
+    color: #13132C;
+    line-height: 76px;
+    font-weight: 600;
+}
+#banner .banner_left p{
+    font-size: 16px;
+    color: #13132C;
+    line-height: 28px;
+    font-weight: 400;
+    padding-right: 215px;
+}
 /* banner part end */
 
 
