@@ -211,8 +211,74 @@ object-fit: cover;
 
 
 
-/* others part start */
-/* others part end */
+/* service part start */
+#service{
+    padding: 114px 0 114px 0;
+}
+.service-left h4{
+    font-size: 48px;
+    line-height: 70px;
+    font-weight: 600;
+    color: #13132C;
+    text-transform: capitalize;
+}
+.service-left p{
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #898998;
+    padding-right: 145px;
+    margin-top: 16px;
+
+}
+.service-left ul{
+    margin-top: 32px;
+}
+.service-left li{
+    display: flex;
+    align-items: center;
+    column-gap: 12px;
+    margin-bottom: 24px;
+}
+.service-left li .section-checkbox{
+    width: 18px;
+    height: 18px;
+    background-color: #F18701;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    border-radius: 50%;
+    font-size: 7px;
+}
+.service-left li span{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+    color: #13132C;
+}
+.service-button{
+    margin-top: 40px;
+}
+.service-button button{
+    padding: 16px 32px;
+    background-color: #7678ED;
+    border: none;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    border: 1px solid #7678ED;
+    transition: all linear 0.3s;
+}
+.service-button button:hover{
+    background-color: #6062c9;
+}
+.service-right img{
+    width: 100%;
+
+}
+/* service part end */
 
 
 /* episodes part start */
@@ -221,7 +287,6 @@ object-fit: cover;
     margin: 0 auto;
     margin-top: 48px;
     padding-top: 64px;
-    max-width: 1440px;
     background: #FAFAFA;
     padding-bottom: 100px;
 }
@@ -293,6 +358,11 @@ object-fit: cover;
 .epi_items .epi_img{
     height: 234px;
     background: #C4C4C4;
+}
+.epi_img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .img_desc{
@@ -396,6 +466,25 @@ object-fit: cover;
 
 #pricing .row .epi_tabs_btn{
     margin-top: 48px;
+    display: flex;
+    column-gap: 24px;
+    justify-content: center;
+}
+.epi_tabs_btn button{
+    padding: 18px 40px;
+    color: #7678ED;
+    font-size: 16px;
+    font-style: normal;
+    background: transparent;
+    font-weight: 600;
+    line-height: normal;
+    border: 1px solid #7678ED;
+    margin-top: 48px;
+    transition: 0.4s;
+}
+.epi_tabs_btn button:hover{
+background-color: #7678ED;
+color: #fff;
 }
 
 .plan {
@@ -622,7 +711,10 @@ object-fit: cover;
     margin-top: 48px;
     
 }
-.blog_btn{
+.slider{
+    display: none;
+}
+.blog_btn a{
     
     padding: 18px 40px;
     border: 1px solid #7678ED;
@@ -630,18 +722,165 @@ object-fit: cover;
     font-size: 16px;
     font-weight: 600;
     display: inline-block;
-    
-
+    transition: all linear 0.3s;
+}
+.blog_btn a:hover{
+    background-color: #7678ED;
+    color: #fff;
 }
 /* Blog part end */
 
 
 
 
-/* listeners part start */
-/* listeners part end */
+/* Testimonial part start */
+#testimonial{
+    padding-top: 96px;
+}
 
+.testimonial_header h4{
+    color: #13132c;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 70px;
+    text-transform: capitalize;
+}
 
+.testimonial_button button{
+    color: #6062c9;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 16px 32px;
+    background-color: transparent;
+    border: none;
+    border: 1px solid #ddd;
+    transition: all linear 0.3s;
+}
 
-/* footer part start */
-/* footer part end */
+.testimonial_button button:hover{
+    background-color: #6062c9;
+    color: #fff;
+}
+
+.testimonial_parent{
+    margin-top: 56px;
+}
+
+.testimonial_items{
+    padding: 24px;
+    border: 1px solid #ddd;
+}
+
+.quatation{
+    position: relative;
+}
+
+.quatation::after{
+    position: absolute;
+    content: "";
+    left: 32px;
+    top: 60%;
+    width: 298px;
+    height: 2px;
+    background-color: #ddd;
+}
+
+.testimonial_items p{
+    color: #62636c;
+    font-size: 16px;
+    font-weight: 400;
+    padding-right: 20px;   
+    font-style: italic;
+    line-height: 28px;
+    margin-top: 24px;
+}
+
+.reviewer{
+    column-gap: 16px;
+    margin-top: 32px;
+}
+.reviewer .rewiewer_image{
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    background-color: #ddd;
+}
+
+.rewiewer_details h6{
+    color: #13132c;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.rewiewer_details span{
+    color: #898989;
+    font-size: 16px;
+    font-weight: 400;
+    display: inline-block;
+    margin-top: 5px;
+}
+/* Testimonial part end */
+
+/* Footer part start */
+footer{
+    padding-top: 90px ;
+    padding-bottom: 90px;
+    background-color: #13132c;
+    margin-top: 140px;
+}
+
+.footer_left p{
+    color: #fff;
+    padding: 0.7;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    padding-right: 50px;
+    margin-top: 20px;
+}
+
+.footer_lists h5{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.footer_lists ul{
+    margin-top: 32px;
+}
+
+.footer_lists ul li{
+    color: #fff;
+    opacity: 0.7;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 24px;
+}
+
+.footer_lists ul li:last-child{
+    margin-bottom: 0;
+}
+
+.list_icon_with_data{
+    column-gap: 8px;
+}
+
+.list_icon_with_data i{
+    font-size: 14px;
+}
+
+.copyright{
+    border-top: 1px solid rgba(255, 255, 255, 0.6);
+    margin-top: 48px;
+    text-align: center;
+}
+
+.copyright span{
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 24px;
+    display: inline-block;
+}
+/* Footer part end */
