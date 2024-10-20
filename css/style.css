@@ -137,8 +137,13 @@ object-fit: cover;
 #podcast{
     background-color: #FAFAFA;
 }
-.title{
-    
+.title .main-heading{
+    color: #13132C;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 70px;
+    width: 643px;
+    text-transform: capitalize;
 }
 .card{
     border: none;
