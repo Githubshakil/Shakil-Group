@@ -513,7 +513,7 @@ color: #fff;
 .plan:hover{
     background: #7678ED;
 }
-
+ 
 .plan h4{
     color:   #13132C;
     font-size: 32px;
@@ -617,7 +617,7 @@ color: #fff;
 .plan:hover ul li i{
     color: #fff;
 }
-.plan a{
+.plan .plan_btn{
     margin-top: 32px;
     display: inline-block;
     width: 100%;
@@ -629,7 +629,14 @@ color: #fff;
     padding: 18px 0;
     text-align: center;
     transition: 0.4s;
+    background-color: #6062c900;
+    transition: 0.4s;
 
+}
+.plan:hover .plan_btn{
+    background-color: #4345e2;
+    color: #fff;
+    border: 1px solid #fff;
 }
 
 .plan:hover a{
