@@ -82,7 +82,6 @@ body{
 
 
 /* episodes part start */
-<<<<<<< Updated upstream
 #episodes{
     margin: 0 auto;
     background: #FAFAFA;
@@ -93,7 +92,7 @@ body{
 
 .epi_header h3{
     color:   #13132C;
-=======
+}
 
 #episodes{
     margin: 0 auto;
@@ -110,31 +109,25 @@ body{
 }
 .epi_header h3{
     color: #13132C;
->>>>>>> Stashed changes
     text-align: center;
     font-size: 48px;
     font-style: normal;
     font-weight: 600;
-<<<<<<< Updated upstream
     line-height: 70px; 
     text-transform: capitalize;
 }
 
 .epi_header p{
     color:#898998;
-=======
     line-height: 70px;  
-    text-transform: capitalize;
 }
 
  .epi_header p{
     color: #898998;
->>>>>>> Stashed changes
     text-align: center;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
-<<<<<<< Updated upstream
     line-height: 24px;  
     padding: 0 15px;
     margin-top: 24px;
@@ -161,7 +154,6 @@ body{
 .epi_tabs_btn button:hover{
     color: #fff;
     background: #7678ED;
-=======
     line-height: 24px; 
     margin-top: 24px;
     padding: 0 15px;
@@ -190,33 +182,20 @@ body{
 .nav_tabs_btn button:hover{
     background: #7678ED;
     color: #fff;
->>>>>>> Stashed changes
     border-color: #7678ED;
 }
 
 .row{
-<<<<<<< Updated upstream
     margin-top: 48px;
     display: flex;
     row-gap: 24px;
 }
 
 .items{
-=======
-    margin: 0 auto;
-    margin-top: 48px;
-    display: flex;
-    row-gap: 24px;
-
-}
-
-.epi_items{
->>>>>>> Stashed changes
     padding: 24px;
     background: #fff;
 }
 
-<<<<<<< Updated upstream
 .items .epi_img {
     height: 234px;
     background: #C4C4C4;
@@ -263,7 +242,7 @@ body{
     height: 48px;
     width: 48px;
     border: 2px solid #F2F2F2;
-=======
+}
 .epi_items .epi_img{
     height: 234px;
     background: #C4C4C4;
@@ -312,7 +291,6 @@ body{
     border: 2px solid #f2f2f2;
     height: 48px;
     width: 48px;
->>>>>>> Stashed changes
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -320,8 +298,6 @@ body{
     position: relative;
 }
 
-<<<<<<< Updated upstream
-=======
 .play_btn::before{
     position: absolute;
     content: "";
@@ -335,12 +311,10 @@ body{
     border-radius: 50%;
 }
 
->>>>>>> Stashed changes
 .play_btn i{
     color: #7678ED;
 }
 
-<<<<<<< Updated upstream
 .play_btn::before{
     position: absolute;
     content: "";
@@ -370,7 +344,8 @@ body{
 .epi_more_btn button:hover{
     color: #fff;
     background:  #7678ED;
-=======
+
+}
 .tabs_more_btn button{
     padding: 18px 40px;
     color: #7678ED;
@@ -387,7 +362,6 @@ body{
 .tabs_more_btn button:hover{
     background: #7678ED;
     color: #fff;
->>>>>>> Stashed changes
 }
 /* episodes part end */
 
@@ -404,7 +378,7 @@ body{
     padding: 0 120px;
 }
 
-#pricing .row .epi_tabs_btn{
+#pricing .row .na_tabs_btn{
     margin-top: 48px;
 }
 
