@@ -1,0 +1,9 @@
+@media (max-with: 575.99px){
+    .navbar-toggler {
+        border: none;    
+    }
+    .navbar-toggler:focus {
+        
+        box-shadow: none;
+    }
+}
