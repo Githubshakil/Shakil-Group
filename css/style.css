@@ -134,6 +134,20 @@ object-fit: cover;
 
 
 /* podcast part start */
+#podcast{
+    background-color: #FAFAFA;
+}
+.title{
+    
+}
+.card{
+    border: none;
+}
+.title_details{
+    font-size: 12px;
+    color: #898998;
+    
+}
 /* podcast part end */
 
 
