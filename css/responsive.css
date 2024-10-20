@@ -46,4 +46,12 @@
     .blog_taitle p {
         width: 327px;
     }
+    .slider {
+        display: block;
+        margin-top: 32px;
+        margin-bottom: 32px;
+    }
+    .blog_btn {
+        margin-top: 0;
+    }
 }
