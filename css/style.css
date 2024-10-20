@@ -134,12 +134,79 @@ object-fit: cover;
 
 
 /* podcast part start */
+
 /* podcast part end */
 
 
 
-/* others part start */
-/* others part end */
+/* service part start */
+#service{
+    padding: 114px 0 114px 0;
+}
+.service-left h4{
+    font-size: 48px;
+    line-height: 70px;
+    font-weight: 600;
+    color: #13132C;
+    text-transform: capitalize;
+}
+.service-left p{
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #898998;
+    padding-right: 145px;
+    margin-top: 16px;
+
+}
+.service-left ul{
+    margin-top: 32px;
+}
+.service-left li{
+    display: flex;
+    align-items: center;
+    column-gap: 12px;
+    margin-bottom: 24px;
+}
+.service-left li .section-checkbox{
+    width: 18px;
+    height: 18px;
+    background-color: #F18701;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    border-radius: 50%;
+    font-size: 7px;
+}
+.service-left li span{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+    color: #13132C;
+}
+.service-button{
+    margin-top: 40px;
+}
+.service-button button{
+    padding: 16px 32px;
+    background-color: #7678ED;
+    border: none;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    border: 1px solid #7678ED;
+    transition: all linear 0.3s;
+}
+.service-button button:hover{
+    background-color: #6062c9;
+}
+.service-right img{
+    width: 100%;
+
+}
+/* service part end */
 
 
 /* episodes part start */
