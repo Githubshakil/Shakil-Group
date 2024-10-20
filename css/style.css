@@ -65,6 +65,7 @@ body{
 /* banner part start */
 #banner{
     margin-top: 50px;
+    margin-bottom: 48px;
 }
 #banner .banner_left h1{
     font-size: 56px;
@@ -135,6 +136,7 @@ object-fit: cover;
 
 /* podcast part start */
 #podcast{
+    
     background-color: #FAFAFA;
     padding: 64px 0;
 }
@@ -243,13 +245,22 @@ object-fit: cover;
 .service-left li .section-checkbox{
     width: 18px;
     height: 18px;
-    background-color: #F18701;
+    background-color: #f1890100;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #fff;
+    color: #F18701;
+    border: 1px solid #F18701;
+    cursor: pointer;
     border-radius: 50%;
-    font-size: 7px;
+    font-size: 10px;
+    transition: 0.4s;
+}
+.service-left li .section-checkbox:hover{
+    background-color: #F18701;
+}
+.service-left li .section-checkbox:hover i{
+    color: #fff;
 }
 .service-left li span{
     font-size: 16px;
@@ -262,9 +273,9 @@ object-fit: cover;
 }
 .service-button button{
     padding: 16px 32px;
-    background-color: #7678ED;
+    background-color: #7678ed00;
     border: none;
-    color: #fff;
+    color: #7678ED;
     font-size: 14px;
     font-weight: 500;
     line-height: 16px;
@@ -273,10 +284,10 @@ object-fit: cover;
 }
 .service-button button:hover{
     background-color: #6062c9;
+    color: #fff;
 }
 .service-right img{
     width: 100%;
-
 }
 /* service part end */
 
@@ -735,7 +746,7 @@ color: #fff;
 
 /* Testimonial part start */
 #testimonial{
-    padding-top: 96px;
+    padding-top: 76px;
 }
 
 .testimonial_header h4{
