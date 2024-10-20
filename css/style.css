@@ -221,6 +221,11 @@ object-fit: cover;
     height: 234px;
     background: #C4C4C4;
 }
+.epi_img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
 
 .img_desc{
     margin-top: 24px;
@@ -323,6 +328,25 @@ object-fit: cover;
 
 #pricing .row .epi_tabs_btn{
     margin-top: 48px;
+    display: flex;
+    column-gap: 24px;
+    justify-content: center;
+}
+.epi_tabs_btn button{
+    padding: 18px 40px;
+    color: #7678ED;
+    font-size: 16px;
+    font-style: normal;
+    background: transparent;
+    font-weight: 600;
+    line-height: normal;
+    border: 1px solid #7678ED;
+    margin-top: 48px;
+    transition: 0.4s;
+}
+.epi_tabs_btn button:hover{
+background-color: #7678ED;
+color: #fff;
 }
 
 .plan {
@@ -549,7 +573,7 @@ object-fit: cover;
     margin-top: 48px;
     
 }
-.blog_btn{
+.blog_btn a{
     
     padding: 18px 40px;
     border: 1px solid #7678ED;
@@ -557,8 +581,11 @@ object-fit: cover;
     font-size: 16px;
     font-weight: 600;
     display: inline-block;
-    
-
+    transition: all linear 0.3s;
+}
+.blog_btn a:hover{
+    background-color: #7678ED;
+    color: #fff;
 }
 /* Blog part end */
 
