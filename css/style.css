@@ -82,6 +82,7 @@ body{
 
 
 /* episodes part start */
+<<<<<<< Updated upstream
 #episodes{
     margin: 0 auto;
     background: #FAFAFA;
@@ -92,20 +93,48 @@ body{
 
 .epi_header h3{
     color:   #13132C;
+=======
+
+#episodes{
+    margin: 0 auto;
+    margin-top: 48px;
+    padding-top: 64px;
+    max-width: 1440px;
+    background: #FAFAFA;
+    padding-bottom: 100px;
+}
+
+#episodes .container{
+    margin: 0 auto;
+
+}
+.epi_header h3{
+    color: #13132C;
+>>>>>>> Stashed changes
     text-align: center;
     font-size: 48px;
     font-style: normal;
     font-weight: 600;
+<<<<<<< Updated upstream
     line-height: 70px; 
     text-transform: capitalize;
 }
 
 .epi_header p{
     color:#898998;
+=======
+    line-height: 70px;  
+    text-transform: capitalize;
+}
+
+ .epi_header p{
+    color: #898998;
+>>>>>>> Stashed changes
     text-align: center;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
+<<<<<<< Updated upstream
     line-height: 24px;  
     padding: 0 15px;
     margin-top: 24px;
@@ -132,20 +161,62 @@ body{
 .epi_tabs_btn button:hover{
     color: #fff;
     background: #7678ED;
+=======
+    line-height: 24px; 
+    margin-top: 24px;
+    padding: 0 15px;
+}
+
+.nav_tabs_btn{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    column-gap: 16px;
+}
+
+.nav_tabs_btn button{
+    padding: 16px 32px;
+    border: 1px solid #dddddd;
+    color:  #898998;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;  
+    background: transparent;
+    transition: 0.5s;
+}
+
+
+.nav_tabs_btn button:hover{
+    background: #7678ED;
+    color: #fff;
+>>>>>>> Stashed changes
     border-color: #7678ED;
 }
 
 .row{
+<<<<<<< Updated upstream
     margin-top: 48px;
     display: flex;
     row-gap: 24px;
 }
 
 .items{
+=======
+    margin: 0 auto;
+    margin-top: 48px;
+    display: flex;
+    row-gap: 24px;
+
+}
+
+.epi_items{
+>>>>>>> Stashed changes
     padding: 24px;
     background: #fff;
 }
 
+<<<<<<< Updated upstream
 .items .epi_img {
     height: 234px;
     background: #C4C4C4;
@@ -192,6 +263,56 @@ body{
     height: 48px;
     width: 48px;
     border: 2px solid #F2F2F2;
+=======
+.epi_items .epi_img{
+    height: 234px;
+    background: #C4C4C4;
+}
+
+.img_desc{
+    margin-top: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left h5{
+    color: #13132C;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    margin-bottom: 10px;  
+}
+.left span{
+    color:#898998;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;  
+}
+
+.left span:last-child{
+    margin-left: 16px;
+    position: relative;
+}
+
+.left span:last-child::before{
+    position: absolute;
+    content: "";
+    width: 4px;
+    height: 4px;
+    transform: translate(-12px,12px);
+    background: #7678ED;
+    border-radius: 10px;
+
+}
+
+.play_btn{
+    border: 2px solid #f2f2f2;
+    height: 48px;
+    width: 48px;
+>>>>>>> Stashed changes
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -199,10 +320,27 @@ body{
     position: relative;
 }
 
+<<<<<<< Updated upstream
+=======
+.play_btn::before{
+    position: absolute;
+    content: "";
+    border: 2px solid transparent;
+    border-top: 2px solid #7678ED;
+    border-left: 2px solid #7678ED;
+    top: -1px;
+    left: -1px;
+    height: 48px;
+    width: 48px;
+    border-radius: 50%;
+}
+
+>>>>>>> Stashed changes
 .play_btn i{
     color: #7678ED;
 }
 
+<<<<<<< Updated upstream
 .play_btn::before{
     position: absolute;
     content: "";
@@ -232,6 +370,24 @@ body{
 .epi_more_btn button:hover{
     color: #fff;
     background:  #7678ED;
+=======
+.tabs_more_btn button{
+    padding: 18px 40px;
+    color: #7678ED;
+    font-size: 16px;
+    font-style: normal;
+    background: transparent;
+    font-weight: 600;
+    line-height: normal;
+    border: 1px solid #7678ED;
+    margin-top: 48px;
+    transition: 0.4s;
+}
+
+.tabs_more_btn button:hover{
+    background: #7678ED;
+    color: #fff;
+>>>>>>> Stashed changes
 }
 /* episodes part end */
 
