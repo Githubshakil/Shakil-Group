@@ -176,12 +176,7 @@ object-fit: cover;
     line-height: 70px; 
     text-transform: capitalize;
 }
-
-.epi_header p{
-    color:#898998;
-    line-height: 70px;  
-}
-
+ 
  .epi_header p{
     color: #898998;
     text-align: center;
@@ -192,6 +187,7 @@ object-fit: cover;
     padding: 0 15px;
     margin-top: 24px;
 }
+ 
 
 .epi_tabs_btn{
     display: flex;
@@ -428,7 +424,56 @@ object-fit: cover;
     background: #7678ED;
     color: #fff;
 }
-/* episodes part end */
+
+@media (max-width:575.99px) {
+
+    #episodes{
+        margin-top: 0;
+        padding-top: 32px;
+    }
+    .epi_header h3{
+        font-size: 24px;
+        text-align: center;
+        line-height: 36px; 
+    }
+
+    .nav_tabs_btn .row button{
+        margin-bottom: 16px;
+    }
+
+    .nav_tabs_btn .row .left button{
+        width: 141px;
+        padding: 16px 30px;
+    }
+    .nav_tabs_btn .row .right button{
+        width: 118px;
+
+    }
+
+    .common:nth-child(2){
+        display: none;
+    }
+    .common:nth-child(3){
+        display: none;
+    }
+    .common:nth-child(4){
+        display: none;
+    }
+    .common:nth-child(5){
+        display: none;
+    }
+    .common:nth-child(6){
+        display: none;
+    }
+    .common:nth-child(7){
+        display: none;
+    }
+    .common:nth-child(8){
+        display: none;
+    }
+
+    }
+ /* episodes part end */
 
 
 
