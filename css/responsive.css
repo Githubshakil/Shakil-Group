@@ -34,10 +34,7 @@
     .numbers_users {
         justify-content: center;
     }
-    .numbers_users span strong {
-         font-size: 36px;
-     }
-
+    
      .blog_taitle h3 {
         font-size: 24px;
         line-height: 36px;
@@ -53,6 +50,79 @@
     }
     .blog_btn {
         margin-top: 0;
+    }
+    .numbers_users span strong {
+        font-size: 36px;
+    }
+    .numbers_users span {
+        font-size: 15px;
+        
+    }
+    .title h3 {
+        font-size: 24px;
+        line-height: 36px;
+        width: 327px;
+        
+    }
+    #podcast {
+        padding: 40px 0;
+    }
+    .title p {
+        width: 327px;
+    }
+    .service-left {
+        text-align: center;
+    }
+    .service-left h4 {
+        font-size: 24px;
+        line-height: 36px;
+        margin-top: 24px;
+    }
+    .service-left p {
+        padding-right: 0;
+        text-align: center;
+    }
+    .list_service{
+            display: flex;
+            justify-content: center;
+        
+    }
+    #service {
+        padding-bottom: 24px;
+    }
+    #episodes {
+        
+        margin-top: 0px;
+        padding-top: 32px;
+        padding-bottom: 32px;
+        
+    }
+    .epi_header h3 {
+        font-size: 28px;
+        line-height: 36px;
+       
+    }
+    .epi_header p {
+        margin-top: 16px;
+        padding: 0;
+        margin-bottom: 16px;
+    }
+    .row {
+        
+        margin-top: 0;
+      
+    }
+    .nav_tabs_btn {
+        margin-top: 40px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: 0 50px;
+        column-gap: 16px;
+        justify-content: center;
+        row-gap: 16px;
+    }
+    .epi_tabs.text-center{
+        margin-bottom: 24px;
     }
 }
 @media (min-width: 576px) and (max-width: 767.99px){
