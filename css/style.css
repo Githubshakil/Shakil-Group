@@ -144,15 +144,13 @@ object-fit: cover;
 
 /* episodes part start */
 #episodes{
-    margin: 0 auto;
+    max-width: 100%;
     background: #FAFAFA;
-    margin-top: 48px;
-    max-width: 1440px;
     padding: 64px 0;
 }
 
 .epi_header h3{
-    color:   #13132C;
+    color: #13132C;
 }
 
 #episodes{
@@ -234,25 +232,24 @@ object-fit: cover;
     transition: 0.5s;
 }
 
-
 .nav_tabs_btn button:hover{
     background: #7678ED;
     color: #fff;
     border-color: #7678ED;
 }
 
-.row{
+.row2{
     margin-top: 48px;
     display: flex;
     row-gap: 24px;
 }
 
-.items{
+.epi_items{
     padding: 24px;
     background: #fff;
 }
 
-.items .epi_img {
+.epi_items .epi_img {
     height: 234px;
     background: #C4C4C4;
     margin-bottom: 24px;
@@ -429,16 +426,35 @@ object-fit: cover;
 
     #episodes{
         margin-top: 0;
-        padding-top: 32px;
+        padding: 32px 0;
     }
+
+    #episodes .row1 {
+        margin-top: 0px;
+    }
+    #episodes .row2 {
+        margin-top: 24px;
+    }
+
     .epi_header h3{
         font-size: 24px;
         text-align: center;
         line-height: 36px; 
     }
 
+    .epi_header p {
+        margin-top: 16px;
+    }
+
+    .nav_tabs_btn {
+        margin-top: 24px;
+    }
+
     .nav_tabs_btn .row button{
         margin-bottom: 16px;
+    }
+    .nav_tabs_btn .row button:last-child{
+        margin-bottom: 0px;
     }
 
     .nav_tabs_btn .row .left button{
@@ -447,29 +463,6 @@ object-fit: cover;
     }
     .nav_tabs_btn .row .right button{
         width: 118px;
-
-    }
-
-    .common:nth-child(2){
-        display: none;
-    }
-    .common:nth-child(3){
-        display: none;
-    }
-    .common:nth-child(4){
-        display: none;
-    }
-    .common:nth-child(5){
-        display: none;
-    }
-    .common:nth-child(6){
-        display: none;
-    }
-    .common:nth-child(7){
-        display: none;
-    }
-    .common:nth-child(8){
-        display: none;
     }
 
     }
@@ -507,8 +500,8 @@ object-fit: cover;
     transition: 0.4s;
 }
 .epi_tabs_btn button:hover{
-background-color: #7678ED;
-color: #fff;
+    background-color: #7678ED;
+    color: #fff;
 }
 
 .plan {
@@ -535,7 +528,6 @@ color: #fff;
     line-height: 38px;  
     margin-bottom: 24px;
     transition: 0.4s;
-
 }
 
 .plan:hover h4{
@@ -550,9 +542,7 @@ color: #fff;
     max-width: 240px;
     margin: 0 auto;
     transition: 0.4s;
-
 }
-
 
 .plan:hover p{
     color: rgba(255,255,255,0.72);
@@ -587,7 +577,6 @@ color: #fff;
     font-style: normal;
     line-height: normal;
     transition: 0.4s;
-
 }
 
 .plan:hover .price span{
@@ -613,7 +602,6 @@ color: #fff;
     font-style: normal;
     line-height: normal;
     transition: 0.4s;
-
 }
 
 .plan:hover ul li span{
@@ -624,7 +612,6 @@ color: #fff;
     color: #7678ED;
     font-size: 24px;
     transition: 0.4s;
-
 }
 
 .plan:hover ul li i{
@@ -642,11 +629,35 @@ color: #fff;
     padding: 18px 0;
     text-align: center;
     transition: 0.4s;
-
 }
 
 .plan:hover a{
     background: #fff;
+}
+
+
+@media (max-width: 375px) {
+    
+    #pricing{
+        margin-top: 0;
+        padding-bottom: 24px;
+    }
+
+    
+    #pricing .epi_header h3{
+        font-size: 24px;
+        line-height: 36px;
+    }
+
+    #pricing .row .epi_header p {
+        padding: 0 24px;
+        margin-top: 16px;
+    }
+
+    #pricing .row2{
+        margin-top: 32px;
+    }
+
 }
 /* priceing part end */ 
 
