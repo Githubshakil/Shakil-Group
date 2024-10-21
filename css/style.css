@@ -293,6 +293,15 @@ object-fit: cover;
 
 
 /* episodes part start */
+#episodes{
+    max-width: 100%;
+    background: #FAFAFA;
+    padding: 64px 0;
+}
+
+.epi_header h3{
+    color: #13132C;
+}
 
 #episodes{
     margin: 0 auto;
@@ -312,16 +321,43 @@ object-fit: cover;
     font-size: 48px;
     font-style: normal;
     font-weight: 600;
-    line-height: 70px;  
+    line-height: 70px; 
     text-transform: capitalize;
 }
-
+ 
  .epi_header p{
     color: #898998;
     text-align: center;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
+    line-height: 24px;  
+    padding: 0 15px;
+    margin-top: 24px;
+}
+ 
+
+.epi_tabs_btn{
+    display: flex;
+    justify-content: center;
+    column-gap: 16px;
+    margin-top: 40px;
+}
+
+.epi_tabs_btn button{
+    padding: 16px 32px;
+    color:  #898998;
+    font-size: 14px;
+    font-style: normal;
+    border: 1px solid #DDD;
+    font-weight: 500;
+    line-height: 16px; 
+    background: transparent;
+    transition: 0.5s;
+}
+.epi_tabs_btn button:hover{
+    color: #fff;
+    background: #7678ED;
     line-height: 24px; 
     margin-top: 24px;
     padding: 0 15px;
@@ -346,19 +382,16 @@ object-fit: cover;
     transition: 0.5s;
 }
 
-
 .nav_tabs_btn button:hover{
     background: #7678ED;
     color: #fff;
     border-color: #7678ED;
 }
 
-.row{
-    margin: 0 auto;
+.row2{
     margin-top: 48px;
     display: flex;
     row-gap: 24px;
-
 }
 
 .epi_items{
@@ -366,6 +399,53 @@ object-fit: cover;
     background: #fff;
 }
 
+.epi_items .epi_img {
+    height: 234px;
+    background: #C4C4C4;
+    margin-bottom: 24px;
+}
+
+.img_desc{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.epi_text h5{
+    color:  #13132C;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    font-style:normal;
+}
+
+.epi_text span{
+    color: #898998;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    position: relative;
+}
+
+.epi_text span:last-child{
+    margin-left: 16px;
+}
+
+.epi_text span:last-child::before{
+    position: absolute;
+    content: "";
+    height: 4px;
+    width: 4px;
+    background: #7678ED;
+    border-radius: 50%;
+    transform: translate(-12px,12px);
+}
+
+.play_btn{
+    height: 48px;
+    width: 48px;
+    border: 2px solid #F2F2F2;
+}
 .epi_items .epi_img{
     height: 234px;
     background: #C4C4C4;
@@ -443,6 +523,37 @@ object-fit: cover;
     color: #7678ED;
 }
 
+.play_btn::before{
+    position: absolute;
+    content: "";
+    top: -1px;
+    left: -1px;
+    height: 48px;
+    width: 48px;
+    border-radius: 50%;
+    border: 2px solid transparent;
+    border-top: 2px solid #7678ED;
+    border-left: 2px solid #7678ED;
+}
+
+.epi_more_btn button{
+    padding: 18px 40px;
+    color: #7678ED;
+    font-size: 16px;
+    border: 1px solid #7678ED;
+    background: transparent;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    transition: 0.5s;
+    margin-top: 48px;
+}
+
+.epi_more_btn button:hover{
+    color: #fff;
+    background:  #7678ED;
+
+}
 .tabs_more_btn button{
     padding: 18px 40px;
     color: #7678ED;
@@ -460,7 +571,52 @@ object-fit: cover;
     background: #7678ED;
     color: #fff;
 }
-/* episodes part end */
+
+@media (max-width:575.99px) {
+
+    #episodes{
+        margin-top: 0;
+        padding: 32px 0;
+    }
+
+    #episodes .row1 {
+        margin-top: 0px;
+    }
+    #episodes .row2 {
+        margin-top: 24px;
+    }
+
+    .epi_header h3{
+        font-size: 24px;
+        text-align: center;
+        line-height: 36px; 
+    }
+
+    .epi_header p {
+        margin-top: 16px;
+    }
+
+    .nav_tabs_btn {
+        margin-top: 24px;
+    }
+
+    .nav_tabs_btn .row button{
+        margin-bottom: 16px;
+    }
+    .nav_tabs_btn .row button:last-child{
+        margin-bottom: 0px;
+    }
+
+    .nav_tabs_btn .row .left button{
+        width: 141px;
+        padding: 16px 30px;
+    }
+    .nav_tabs_btn .row .right button{
+        width: 118px;
+    }
+
+    }
+ /* episodes part end */
 
 
 
@@ -475,7 +631,7 @@ object-fit: cover;
     padding: 0 120px;
 }
 
-#pricing .row .epi_tabs_btn{
+#pricing .row .na_tabs_btn{
     margin-top: 48px;
     display: flex;
     column-gap: 24px;
@@ -494,8 +650,8 @@ object-fit: cover;
     transition: 0.4s;
 }
 .epi_tabs_btn button:hover{
-background-color: #7678ED;
-color: #fff;
+    background-color: #7678ED;
+    color: #fff;
 }
 
 .plan {
@@ -522,7 +678,6 @@ color: #fff;
     line-height: 38px;  
     margin-bottom: 24px;
     transition: 0.4s;
-
 }
 
 .plan:hover h4{
@@ -537,9 +692,7 @@ color: #fff;
     max-width: 240px;
     margin: 0 auto;
     transition: 0.4s;
-
 }
-
 
 .plan:hover p{
     color: rgba(255,255,255,0.72);
@@ -574,7 +727,6 @@ color: #fff;
     font-style: normal;
     line-height: normal;
     transition: 0.4s;
-
 }
 
 .plan:hover .price span{
@@ -600,7 +752,6 @@ color: #fff;
     font-style: normal;
     line-height: normal;
     transition: 0.4s;
-
 }
 
 .plan:hover ul li span{
@@ -611,7 +762,6 @@ color: #fff;
     color: #7678ED;
     font-size: 24px;
     transition: 0.4s;
-
 }
 
 .plan:hover ul li i{
@@ -629,9 +779,6 @@ color: #fff;
     padding: 18px 0;
     text-align: center;
     transition: 0.4s;
-    background-color: #6062c900;
-    transition: 0.4s;
-
 }
 .plan:hover .plan_btn{
     background-color: #4345e2;
@@ -641,6 +788,31 @@ color: #fff;
 
 .plan:hover a{
     background: #fff;
+}
+
+
+@media (max-width: 375px) {
+    
+    #pricing{
+        margin-top: 0;
+        padding-bottom: 24px;
+    }
+
+    
+    #pricing .epi_header h3{
+        font-size: 24px;
+        line-height: 36px;
+    }
+
+    #pricing .row .epi_header p {
+        padding: 0 24px;
+        margin-top: 16px;
+    }
+
+    #pricing .row2{
+        margin-top: 32px;
+    }
+
 }
 /* priceing part end */ 
 
