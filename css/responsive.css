@@ -1,7 +1,79 @@
+@media (min-width: 992px) and (max-width: 1199.99px){
+    /* sohel's code */
+    .testimonial_header h4 {
+        font-size: 28px;
+        line-height: 36px;
+    }
+    .quatation::after{
+        width: 215px;
+    }
+    .rewiewer_details h6 {
+        font-size: 14px;
+    
+    }
+    footer {
+        margin-top: 80px;
+        padding-bottom: 50px;
+    }
+    .footer_left p {
+        padding-right: 0px;
+       
+    }
+    
+}
+/* ============================ */
+@media (min-width: 768px) and (max-width: 991.99px){
+    /* sohel's code */
+    .testimonial_header h4 {
+        font-size: 28px;
+        line-height: 36px;
+        text-align: center;
+    }
+    .quatation::after{
+        width: 253px;
+    }
+    footer {
+        margin-top: 80px;
+        padding-bottom: 50px;
+    }
+    .footer_left p {
+        padding-right: 0px;
+       
+    }
+    .footer_lists{
+        margin-top: 32px;
+    }
+    
+}
+/* ============================ */
+@media (min-width: 576px) and (max-width: 767.99px){
+    /* sohel's code */
+    .testimonial_header h4 {
+        font-size: 28px;
+        line-height: 36px;
+        text-align: center;
+    }
+    .quatation::after{
+        width: 253px;
+    }
+    footer {
+        margin-top: 80px;
+        padding-bottom: 50px;
+    }
+    .footer_left p {
+        padding-right: 0px;
+       
+    }
+    .footer_lists{
+        margin-top: 32px;
+    }
+    
+}
+/* ============================ */
+
 @media (max-width: 575.99px){
     .navbar-toggler {
        border: none;
-        
     }
     .navbar-toggler:focus {
          box-shadow: none;
@@ -54,4 +126,26 @@
     .blog_btn {
         margin-top: 0;
     }
+
+    /* sohel's code */
+    .testimonial_header h4 {
+        font-size: 28px;
+        line-height: 36px;
+        text-align: center;
+    }
+    .quatation::after{
+        width: 253px;
+    }
+    footer {
+        margin-top: 80px;
+        padding-bottom: 32px;
+    }
+    .footer_left p {
+        padding-right: 0px;
+       
+    }
+    .footer_lists{
+        margin-top: 32px;
+    }
+    
 }
