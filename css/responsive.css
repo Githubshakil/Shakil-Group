@@ -133,6 +133,9 @@
         line-height: 36px;
         text-align: center;
     }
+    .testimonial_items {
+        margin-bottom: 24px;
+    }
     .quatation::after{
         width: 253px;
     }
