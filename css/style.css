@@ -65,6 +65,7 @@ body{
 /* banner part start */
 #banner{
     margin-top: 50px;
+    margin-bottom: 48px;
 }
 #banner .banner_left h1{
     font-size: 56px;
@@ -134,12 +135,161 @@ object-fit: cover;
 
 
 /* podcast part start */
+#podcast{
+    
+    background-color: #FAFAFA;
+    padding: 64px 0;
+}
+.podcast_heading .title{
+   text-align: center;
+  
+   
+}
+.title h3 {
+    color: #13132C;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 70px;
+    width: 643px;
+    text-transform: capitalize;
+    margin: auto;
+    
+}
+.title p {
+    color: #898998;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    width: 620px;
+    text-transform: capitalize;
+    margin: auto;
+    margin-top: 24px;
+}
+.icon_cercle{
+    width: 88px;
+    height: 88px;
+    border: 1px solid #F18701;
+    border-radius: 50%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.4s;
+    cursor: pointer;
+}
+.icon_cercle:hover{
+    background-color: #F18701;
+}
+.icon_cercle i{
+    color: #F18701;
+    font-size: 28px;
+    transition: 0.4s;
+}
+.icon_cercle:hover i{
+    color: #fff;
+}
+.card-body h4{
+    color: #13132C;
+    font-size: 20px;
+    font-weight: 500;
+}
+.card-body p{
+    color: #898998;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 16px;
+
+}
+.card{
+    border: none;
+}
+.title_details{
+    font-size: 12px;
+    color: #898998;
+    
+}
 /* podcast part end */
 
 
 
-/* others part start */
-/* others part end */
+/* service part start */
+#service{
+    padding: 114px 0 114px 0;
+}
+.service-left h4{
+    font-size: 48px;
+    line-height: 70px;
+    font-weight: 600;
+    color: #13132C;
+    text-transform: capitalize;
+}
+.service-left p{
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #898998;
+    padding-right: 145px;
+    margin-top: 16px;
+
+}
+.service-left ul{
+    margin-top: 32px;
+}
+.service-left li{
+    display: flex;
+    align-items: center;
+    column-gap: 12px;
+    margin-bottom: 24px;
+}
+.service-left li .section-checkbox{
+    width: 18px;
+    height: 18px;
+    background-color: #f1890100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #F18701;
+    border: 1px solid #F18701;
+    cursor: pointer;
+    border-radius: 50%;
+    font-size: 10px;
+    transition: 0.4s;
+}
+.service-left li .section-checkbox:hover{
+    background-color: #F18701;
+}
+.service-left li .section-checkbox:hover i{
+    color: #fff;
+}
+.service-left li span{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+    color: #13132C;
+}
+.service-button{
+    margin-top: 40px;
+}
+.service-button button{
+    padding: 16px 32px;
+    background-color: #7678ed00;
+    border: none;
+    color: #7678ED;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    border: 1px solid #7678ED;
+    transition: all linear 0.3s;
+}
+.service-button button:hover{
+    background-color: #6062c9;
+    color: #fff;
+}
+.service-right img{
+    width: 100%;
+}
+/* service part end */
 
 
 /* episodes part start */
@@ -519,7 +669,7 @@ object-fit: cover;
 .plan:hover{
     background: #7678ED;
 }
-
+ 
 .plan h4{
     color:   #13132C;
     font-size: 32px;
@@ -617,7 +767,7 @@ object-fit: cover;
 .plan:hover ul li i{
     color: #fff;
 }
-.plan a{
+.plan .plan_btn{
     margin-top: 32px;
     display: inline-block;
     width: 100%;
@@ -629,6 +779,11 @@ object-fit: cover;
     padding: 18px 0;
     text-align: center;
     transition: 0.4s;
+}
+.plan:hover .plan_btn{
+    background-color: #4345e2;
+    color: #fff;
+    border: 1px solid #fff;
 }
 
 .plan:hover a{
@@ -770,7 +925,7 @@ object-fit: cover;
 
 /* Testimonial part start */
 #testimonial{
-    padding-top: 96px;
+    padding-top: 76px;
 }
 
 .testimonial_header h4{
