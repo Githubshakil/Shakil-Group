@@ -6,7 +6,9 @@
         font-size: 38px;
         text-align: center;
         line-height: 40px;
-        max-width: 384px;
+    }
+    #episodes .row .epi_header p {
+        padding: 0 30px;
     }
 
     /* shihab code  */
@@ -42,12 +44,11 @@
         font-size: 38px;
         text-align: center;
         line-height: 40px;
-        /* max-width: 384px; */
     }
     
     #episodes .row .epi_header p {
         margin-top: 20px;
-        padding: 0 90px;
+        padding: 0 30px;
         font-size: 18px;
         line-height: 30px;
     }
@@ -60,8 +61,9 @@
         width: 220px;
     }
     .epi_items .img_desc .left h5{
-            margin-bottom: 0px;  
+        margin-bottom: 10px;  
     }
+
     /* shihab code  */
 
     /* sohel's code */
@@ -91,7 +93,11 @@
 
     /* shihab code  */
 
-    
+    #episodes{
+        margin-top: 0;
+        padding: 32px 0;
+    } 
+
     .epi_header h3 {
         font-size: 32px;
         text-align: center;
@@ -114,8 +120,10 @@
     }
 
     .epi_items .img_desc .left h5{
-        margin-bottom: 0px;  
-}
+        margin-bottom: 10px;  
+    }
+
+
 
     .left:last-child{
         margin-bottom: 0px;
@@ -130,6 +138,18 @@
     .row2{
         margin-top: 30px;
     }
+
+    /* pricing code  */
+
+    #pricing{
+        margin-top: 0;
+    }
+    #pricing .row .epi_header p{
+        padding: 0 25px;
+        margin-top: 16px;
+    }
+
+
     /* shihab code  */
 
     /* sohel's code */
@@ -212,6 +232,7 @@
         margin-top: 0;
     }
 
+
     /* shihab code  */
     #episodes{
         margin-top: 0;
@@ -256,6 +277,7 @@
     }
 
     /* pricing code  */
+
     #pricing{
         margin-top: 0;
         padding-bottom: 24px;
@@ -277,6 +299,9 @@
     }
 
     /* shihab code  */
+
+
+
 
     /* sohel's code */
     .testimonial_header h4 {

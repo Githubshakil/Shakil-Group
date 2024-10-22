@@ -411,6 +411,10 @@ object-fit: cover;
     justify-content: space-between;
 }
 
+.epi_items .img_desc .left{
+    display: inline-block;
+}
+
 .epi_text h5{
     color:  #13132C;
     font-size: 18px;
