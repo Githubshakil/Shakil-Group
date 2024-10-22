@@ -211,10 +211,7 @@
     .numbers_users {
         justify-content: center;
     }
-    .numbers_users span strong {
-         font-size: 36px;
-     }
-
+    
      .blog_taitle h3 {
         font-size: 24px;
         line-height: 36px;
