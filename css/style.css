@@ -526,8 +526,8 @@ object-fit: cover;
 .play_btn::before{
     position: absolute;
     content: "";
-    top: -1px;
-    left: -1px;
+    top: -2px;
+    left: -2px;
     height: 48px;
     width: 48px;
     border-radius: 50%;

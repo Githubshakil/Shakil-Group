@@ -1,4 +1,16 @@
 @media (min-width: 992px) and (max-width: 1199.99px){
+
+    /* shihab code  */
+
+    #episodes .row .epi_header{
+        font-size: 38px;
+        text-align: center;
+        line-height: 40px;
+        max-width: 384px;
+    }
+
+    /* shihab code  */
+
     /* sohel's code */
     .testimonial_header h4 {
         font-size: 28px;
@@ -23,6 +35,35 @@
 }
 /* ============================ */
 @media (min-width: 768px) and (max-width: 991.99px){
+
+    /* shihab code  */
+
+   #episodes .row .epi_header h3 {
+        font-size: 38px;
+        text-align: center;
+        line-height: 40px;
+        /* max-width: 384px; */
+    }
+    
+    #episodes .row .epi_header p {
+        margin-top: 20px;
+        padding: 0 90px;
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+    #episodes .nav_tabs_btn{
+        margin-top: 30px;
+    }
+ 
+    .epi_items .img_desc .left {
+        width: 220px;
+    }
+    .epi_items .img_desc .left h5{
+            margin-bottom: 0px;  
+    }
+    /* shihab code  */
+
     /* sohel's code */
     .testimonial_header h4 {
         font-size: 28px;
@@ -47,6 +88,50 @@
 }
 /* ============================ */
 @media (min-width: 576px) and (max-width: 767.99px){
+
+    /* shihab code  */
+
+    
+    .epi_header h3 {
+        font-size: 32px;
+        text-align: center;
+        line-height: 36px;
+    }
+    .epi_header p {
+        margin-top: 16px;
+        padding: 0 25px;
+    }
+
+    .nav_tabs_btn{
+        margin-top: 24px;
+    }
+
+    .left{
+        display: flex;
+        justify-content: center;
+        gap: 16px;
+        margin-bottom: 16px;
+    }
+
+    .epi_items .img_desc .left h5{
+        margin-bottom: 0px;  
+}
+
+    .left:last-child{
+        margin-bottom: 0px;
+    }
+
+    .nav_tabs_btn .row .left button{
+        width: 141px;
+        padding: 16px 25px;
+
+    }
+
+    .row2{
+        margin-top: 30px;
+    }
+    /* shihab code  */
+
     /* sohel's code */
     .testimonial_header h4 {
         font-size: 28px;
@@ -148,14 +233,15 @@
 
     .epi_header p {
         margin-top: 16px;
+        padding: 0px 34px;
     }
-
     .nav_tabs_btn {
         margin-top: 24px;
     }
 
     .nav_tabs_btn .row button{
         margin-bottom: 16px;
+        display: block;
     }
     .nav_tabs_btn .row button:last-child{
         margin-bottom: 0px;
@@ -216,10 +302,3 @@
 }
 
 
-
-    
-   
-
-}
-
- /* pricing end  */
