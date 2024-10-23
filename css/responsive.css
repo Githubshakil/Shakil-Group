@@ -1,3 +1,27 @@
+
+
+@media (min-width: 1200px) and (max-width: 1399.99px){
+
+    #episodes .row .epi_header p {
+        padding: 0 25px;
+    }
+
+    #episodes .row2 .epi_items .img_desc {
+        column-gap: 15px;
+    }
+
+    #episodes .row2 .epi_items .img_desc h5{
+        font-size: 16px;
+    }
+    #episodes .row2 .epi_items .img_desc span{
+        {
+        font-size: 12px;
+    }
+
+}
+
+
+
 @media (min-width: 992px) and (max-width: 1199.99px){
 
     /* shihab code  */
